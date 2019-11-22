@@ -96,6 +96,10 @@ function getNetworkProviderUrl(id) {
       return `https://rinkeby.infura.io/v3/90f210707d3c450f847659dc9a3436ea`
     case '5':
       return `https://goerli.infura.io/v3/90f210707d3c450f847659dc9a3436ea`
+    case '73799':
+      return `https://volta-rpc.energyweb.org`
+    case '246':
+      return `https://rpc.energyweb.org`
     default:
       return 'private'
   }
